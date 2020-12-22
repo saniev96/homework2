@@ -1,0 +1,65 @@
+body {
+    font-size: 18px;
+    margin: 10;
+    padding: 10;
+    background: #f0f8fa;
+    background-image: url(../img/fut.jpg);
+    background-size: cover;
+    opacity: 1;
+}
+.forms {
+    position: relative;
+    text-shadow: 1px 1px 2px rgb(158, 126, 194), 0 0 1em #0066ff;
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display: block;
+    border-radius: 20px;
+    background: -webkit-linear-gradient(70deg,#bda3d5 50%);
+    background: -o-linear-gradient(20deg, #bda3d5 50%);
+    background: linear-gradient(20deg, #bda3d5 50%);
+}
+h1,
+p {
+    color:#352e36;
+}
+input {
+    border-style: none;
+    outline-style: none;
+    background: transparent;
+}
+input[type=text],
+input[type=password] {
+    width: 200px;
+    color: #352e36;
+    padding: 0 0 5px 30px;
+}
+label {
+    margin: 20px 20px;
+    color: #352e36;
+}
+input[type=text],
+input[type=email] {
+    width: 200px;
+    color: #352e36;
+    padding: 0 0 5px 30px; 
+}
+button {
+    width: 200px;
+    border: none;
+    border-radius: 12px;
+    color: #352e36;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+li {
+    list-style-type: none;
+   }
