@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+input {
+    border-style: none;
+    outline-style: none;
+    background: transparent;
+}
+input[type=text],
+input[type=password] {
+    width: 300px;
+    border-bottom: 2px solid white;
+    border-radius: 0;
+    color: teal;
+    padding: 0 0 5px 30px;
+    text-shadow: 1px 1px 2px rgb(158, 126, 194), 0 0 1em #0066ff;
+    font-family: sans-serif;
+}
+label {
+   margin: 20px 20px;
+   color: teal;
+}
+.submit, .reg {
+    color: teal;
+    margin: 0 20px;
+    margin-bottom: 5px;
+	cursor: pointer;
+	border: 1px solid #cecece;
+	background: #f6f6f6;
+	box-shadow: inset 0px 20px 20px #ffffff;
+	border-radius: 8px;
+	padding: 8px 14px;
+	width:300px;
+}
+input[type=text],
+input[type=email] {
+   width: 300px;
+   border-bottom: 2px solid white;
+   border-radius: 0;
+   color: teal;
+   padding: 0 0 5px 30px; 
+   text-shadow: 1px 1px 2px rgb(158, 126, 194), 0 0 1em #0066ff;
+}
+
+.enter {
+    margin-left: 5px;
+    color: #0066ff;
+    background: #ffc;
+    padding: 2px; 
+}
+
+.dif {
+    text-shadow: 1px 1px 2px rgb(158, 126, 194), 0 0 1em #0066ff;
+}
