@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="shortcut icon" href="10.png" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="author" content="Саниев Джал">
+    <title>Главная</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/forms.css">
+</head>
+
+
+<body>
+    <form class="authorization"action="обработчик_на_сервере" method="POST">
+        <div class="dif">
+            <label for="login">Логин:</label>
+            <input id="login" type="email" placeholder="Введите email" required maxlength="10" autofocus> 
+        </div>
+        
+        <div class="dif">
+           <label for="pass">Пароль:</label>
+           <input id="pass" type="password" placeholder="Введите пароль" required minlength="7">
+        </div>
+    
+        <div class="dif">
+            <label>Запомнить меня
+                <input type="checkbox" checked>
+            </label>
+        </div>
+    
+        <div>
+            <button type="submit" class="submit" name="submitbtn" value="Войти">Войти</button>
+        </div>
+    </form>
+    <form class="authorization" action="reg.html">
+        <button type="submit" class="reg" name="reg" value="Зарегистрироваться">Зарегистрироваться</button>
+    </form>
+    
+    
+    <a class="modal" href="#ModalOpen" title="reg">Зарегистрироваться</a>
+    <div id="ModalOpen" class="Window">
+    <div>
+    <a href="#close" title="Закрыть" class="close">X</a>
+    <form class="forms" action="обработчик_на_сервере" method="POST[]">
+        <h1>Регистрация</h1>
+        <p>Заполните эту форму,чтобы создать новый аккаунт</p>
+        <hr>
+    
+        <label for="email"><b>Email</b></label>
+        <input id="email" type="text" placeholder="Введите Email" name="email" maxlength="14" required autofocus>
+    
+        <label for="psw"><b>Пароль</b></label>
+        <input id="psw" type="password" placeholder="Введите пароль" name="psw" minlength="8" required>
+    
+        <label for="psw-repeat"><b>Повторите пароль</b></label>
+        <input id="psw-repeat" type="password" placeholder="Повторите пароль" name="psw-repeat" required>
+  </form>  
+    </div>
+    </div>
+
+    
+    
+    <header class="menu">
+    <nav>
+        <a  href="index.html"><b>Главная</b></a>
+        <a  href="aricle1.html"><b>Биография</b></a>
+        <a  href="club.html"><b>Клубы</b></a>
+    </nav>
+    </header>
+<main class="container">
+    <h2><em>Диего Марадона</em></h2>
+    <article>
+        <p>Диего Марадона (1960) – футболист, родился 30 октября 1960 года в городе Вилла Фиорито, Аргентина. Наиболее известен как герой Аргентины на чемпионате мира 1986 года. Можно сказать, что Диего Марадона является Бэйбом Рут для аргентинского футбола. Коренастый, очаровательный, жестко бьющий  спортсмен лидировал среди других футболистов своей страны.
+        </p>
+    <img src="img\maradona.jpg" alt="300">
+    <a class="more-btn" href="aricle1.html"><em>Подробнее</em></a>
+        
+    </article>
+</main>
+    
+</body>
+</html>

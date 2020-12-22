@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="css/reg.css">
+</head>
+<body>
+    <form class="forms" action="обработчик_на_сервере" method="POST[]">
+          <h1>Регистрация</h1>
+          <p>Заполните эту форму,чтобы создать новый аккаунт</p>
+          <hr>
+      
+          <label for="email"><b>Email</b></label>
+          <input id="email" type="text" placeholder="Введите Email" name="email" maxlength="14" required autofocus>
+      
+          <label for="psw"><b>Пароль</b></label>
+          <input id="psw" type="password" placeholder="Введите пароль" name="psw" minlength="8" required>
+      
+          <label for="psw-repeat"><b>Повторите пароль</b></label>
+          <input id="psw-repeat" type="password" placeholder="Повторите пароль" name="psw-repeat" required>
+          <hr>
+          <label>Я даю свое согласие на обработку данных
+          <input type="checkbox">
+          </label>
+          <li>
+            <button class="registerbtn" type="submit">Создать аккаунт</button>
+          </li>
+    </form>  
+    
+</body>
+</html>
